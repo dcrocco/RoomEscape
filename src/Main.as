@@ -22,7 +22,7 @@
 			_instance = this;
 			this.itemsToClean = [];
 			this.levelArray = [];
-			this.initializeStages(7);
+			this.initializeStages(8);
 			this.makeInventory();
 		}
 

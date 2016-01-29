@@ -1,3 +1,0 @@
-# RoomEscape
-
-Repository for RoomEscape

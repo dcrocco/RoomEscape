@@ -1,5 +1,4 @@
 ﻿package  {
-
 import flash.display.MovieClip;
 
 public class Level4 extends Level{
