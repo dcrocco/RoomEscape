@@ -18,11 +18,11 @@ public class Level4 extends Level{
 		override public function loadStage():void{
 			MovieClip(this.parent).gotoAndStop(5);
 			if (!this.picturePaper.inInventory){
-				Main.instance.addToStage(this.picturePaper, 379.95, 193.60);
+				Main.instance.addToStage(this.picturePaper, 379.95, 193.60, 29.10, 20.80);
 				Main.instance.addItemToClean(this.picturePaper);
-			}	
-			
-			Main.instance.addToStage(this.shelf, 442.9, 144.05);
+			}
+
+			Main.instance.addToStage(this.shelf, 442.9, 144.05, 159.25, 115.85);
 			Main.instance.addItemToClean(this.shelf);			
 			this.loadButtons();
 		}

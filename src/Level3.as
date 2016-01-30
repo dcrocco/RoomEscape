@@ -27,21 +27,20 @@
 			
 			MovieClip(this.parent).gotoAndStop(4);	
 
-			Main.instance.addToStage(this.safe, 162, 130, 123.60, 92.10);
-			Main.instance.addItemToClean(this.safe);	
+			Main.instance.addToStage(this.safe, 162, 160.5, 123.60, 92.10);
+			Main.instance.addItemToClean(this.safe);
 			Main.instance.addToStage(this.buttonStage3to7, 100.2, 83.95, 123.60, 92.10);
 			Main.instance.addItemToClean(this.buttonStage3to7);						
 			
 			if (!this.pictureButton.movedPicture){
-				
 
-				Main.instance.addToStage(this.picture, 165, 126.5);
-				Main.instance.addToStage(this.pictureButton, 141.45, 175.60);
+				Main.instance.addToStage(this.picture, 165, 157);
+				Main.instance.addToStage(this.pictureButton, 141.45, 206.10);
 				Main.instance.addItemToClean(this.pictureButton);
-				
+
 			}else{
-				
-				Main.instance.addToStage(picture, 328, 126.5);				
+
+				Main.instance.addToStage(picture, 328, 157);
 			}
 			
 			Main.instance.addItemToClean(this.picture);			

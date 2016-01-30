@@ -15,8 +15,7 @@
 		private function handleClick(e:MouseEvent):void{
 			for(var i:int = 0; i < Main.instance.numChildren;i++){
 				if(Main.instance.getChildAt(i) is Picture){
-					Main.instance.getChildAt(i).x = 328;
-					Main.instance.getChildAt(i).y = 126.5;
+					Main.instance.getChildAt(i).x += 163;
 					this.movedPicture=true;
 				}
 			}
