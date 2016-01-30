@@ -11,10 +11,10 @@ public class SafeLock extends StageItem {
     public function SafeLock() {
 
         this.myTimer = new Timer(50);
-        addEventListener(MouseEvent.MOUSE_DOWN, onDown);
-        addEventListener(MouseEvent.MOUSE_UP, onUp);
-        addEventListener(MouseEvent.CLICK, handleClick);
-        this.myTimer.addEventListener(TimerEvent.TIMER, handleClick);
+        addEventListener(MouseEvent.MOUSE_DOWN, onDown, false, 0 ,true);
+        addEventListener(MouseEvent.MOUSE_UP, onUp, false, 0 ,true);
+        addEventListener(MouseEvent.CLICK, handleClick, false, 0 ,true);
+        this.myTimer.addEventListener(TimerEvent.TIMER, handleClick, false, 0 ,true);
 
     }
 

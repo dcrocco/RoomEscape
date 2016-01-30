@@ -1,7 +1,6 @@
 ﻿package  {
 	
 	import flash.display.Sprite;
-	import flash.display.Shape;
 	import flash.events.MouseEvent;
 	
 	public class Dummy extends Sprite {
@@ -18,9 +17,9 @@
 	
 		public function openWindow():void{
 			this.graphics.beginFill(0x663300, 0.25);
-			this.graphics.drawRect(0, 0, Main.instance.width, Main.instance.height)
+			this.graphics.drawRect(0, 0, Main.instance.width, Main.instance.height);
 			this.graphics.endFill();
-			Main.instance.addToStage(this, this.x, this.y)
+			Main.instance.addToStage(this, this.x, this.y);
 			Main.instance.addToStage(this.dummyItem, 75, 161, 450, 280);
 			this.dummyItem.removeClickListener();
 			

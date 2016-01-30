@@ -32,19 +32,19 @@
 			}else Main.instance.gotoAndStop(6);
 			
 			if (screw1.isAttached){
-				Main.instance.addToStage(screw1, 106, 85.5);
+				Main.instance.addToStage(screw1, 105, 56);
 				Main.instance.addItemToClean(screw1);
 			}
 			if (screw2.isAttached){
-				Main.instance.addToStage(screw2, 501, 85.5);
+				Main.instance.addToStage(screw2, 501, 56);
 				Main.instance.addItemToClean(screw2);
 			}	
 			if (screw3.isAttached){
-				Main.instance.addToStage(screw3, 106, 222);
+				Main.instance.addToStage(screw3, 105, 210);
 				Main.instance.addItemToClean(screw3);
 			}				
 			if (screw4.isAttached){
-				Main.instance.addToStage(screw4, 501, 225);
+				Main.instance.addToStage(screw4, 501, 210);
 				Main.instance.addItemToClean(screw4);
 			}
 		

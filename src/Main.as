@@ -8,7 +8,7 @@
 
 		//Global vars
 		public var lastClicked:Object;   //TODO: Add getter
-		public var itemSelected:Item;	 //TODO: Add getter	
+		public var itemSelected:Item;	 //TODO: Add getter
 		private var myInventory:Inventory;
 		private var levelArray:Array;
 		private var itemsToClean:Array;
@@ -22,7 +22,7 @@
 			_instance = this;
 			this.itemsToClean = [];
 			this.levelArray = [];
-			this.initializeStages(8);
+			this.initializeStages(9);
 			this.makeInventory();
 		}
 
