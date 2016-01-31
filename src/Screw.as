@@ -15,16 +15,13 @@ public class Screw extends StageItem{
 		public function removeScrew(e:MouseEvent):void{
 
 			if (this.isAttached){
-				for each (var item:Item in Main.instance.getInventory().itemsInside){
-					if (item is Screwdriver && Main.instance.itemSelected is Screwdriver){
-						if (this.name == 'screw4'){
-							break;
-						}else{
-							this.isAttached = false;
-							this.visible = false;
-							Main.instance.playLevel(5);
-							break;
-						}
+				if (Main.instance.itemSelected is Screwdriver){
+					if (this.name == 'screw4'){
+						return;
+					}else{
+						this.isAttached = false;
+						this.visible = false;
+						Main.instance.playLevel(5);
 					}
 				}
 			}

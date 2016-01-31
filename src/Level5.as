@@ -63,6 +63,7 @@
 		private function loadButtons():void{
 
 	     	this.buttonStage5to2.name = 'buttonStage5to2';
+			this.buttonStage5to2.alpha = 0;
 			Main.instance.addToStage(this.buttonStage5to2, 0, 303.95, 600, 18.05);
 			Main.instance.addItemToClean(this.buttonStage5to2);				
 		}

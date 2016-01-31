@@ -18,7 +18,7 @@
 				Main.instance.addItemToClean(screw4);			
 			}
 			
-			Main.instance..gotoAndStop(7);
+			Main.instance.gotoAndStop(7);
 
 		}
 		

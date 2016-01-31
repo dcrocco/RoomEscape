@@ -3,26 +3,33 @@
 	import flash.display.MovieClip;
 	
 	public class Level1 extends Level{
-		
+
+        private var pickaxe:Pickaxe;
 		private var screwdriver:Screwdriver;
+		private var switchButton:Switch;
 		private var buttonStage1to2:ButtonStage;
 		private var buttonStage1to4:ButtonStage;
 		
 		public function Level1(){
+            this.pickaxe = new Pickaxe();
 			this.screwdriver = new Screwdriver();
 			this.buttonStage1to2 = new ButtonStage();
 			this.buttonStage1to4 = new ButtonStage();
+			this.switchButton = new Switch();
 		}		
 		
 		override public function loadStage():void {
-			MovieClip(this.parent).gotoAndStop(2);
-			if (!Main.instance.getInventory().visible) Main.instance.getInventory().visible = true;
-			if (!this.screwdriver.inInventory){
-				
-				Main.instance.addToStage(this.screwdriver, 293.55, 64.30);
-				Main.instance.addItemToClean(this.screwdriver);				
-			}
-			this.loadButtons();
+            MovieClip(this.parent).gotoAndStop(2);
+            if (!Main.instance.getInventory().visible) Main.instance.getInventory().visible = true;
+            Main.instance.addToStage(this.switchButton, 230.45, 151.75);
+            Main.instance.addItemToClean(this.switchButton);
+
+            if (!this.screwdriver.inInventory) Main.instance.addToStage(this.screwdriver, 293.55, 64.30);
+            if (!this.pickaxe.inInventory) Main.instance.addToStage(this.pickaxe, 68, 115, 37.50, 75);
+
+            Main.instance.addItemToClean(this.pickaxe);
+            Main.instance.addItemToClean(this.screwdriver);
+            this.loadButtons();
 		}
 		
 		

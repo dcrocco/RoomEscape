@@ -21,7 +21,11 @@
 			this.addEventListener(MouseEvent.CLICK, handleClick, false, 0, true);
 			this.glow = new GlowFilter(0xfffffff, 1, 5, 5, 5, 1, false, false);
 		}
-		
+
+		public function unselectItem():void{
+			this.filters = []
+		}
+
 		public function removeClickListener():void{
 			this.removeEventListener(MouseEvent.CLICK, handleClick)
 		}
