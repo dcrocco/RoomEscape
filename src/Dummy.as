@@ -16,7 +16,7 @@
 		
 	
 		public function openWindow():void{
-			this.graphics.beginFill(0x663300, 0.25);
+			this.graphics.beginFill(0x000000, 0.25);
 			this.graphics.drawRect(0, 0, Main.instance.width, Main.instance.height);
 			this.graphics.endFill();
 			Main.instance.addToStage(this, this.x, this.y);

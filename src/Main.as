@@ -8,12 +8,11 @@ import flash.display.DisplayObject;
 public class Main extends MovieClip {
 
     //Global vars
-    public var lastClicked:Object;   //TODO: Add getter
     public var itemSelected:Item;	 //TODO: Add getter
     private var myInventory:Inventory;
     private var levelArray:Array;
     private var itemsToClean:Array;
-    private var illumination:Boolean;
+    private var _illumination:Boolean;
     private var shapeForIllumination:Shape;
 
     //Singleton
@@ -27,7 +26,7 @@ public class Main extends MovieClip {
         this.levelArray = [];
         this.initializeStages(9);
         this.makeInventory();
-        this.illumination = true;
+        this._illumination = true;
         //Shape for illumination
         this.shapeForIllumination = new Shape();
         this.shapeForIllumination.graphics.beginFill(0x000000, 0.4);
@@ -146,12 +145,15 @@ public class Main extends MovieClip {
 
     public function changeIllumination():void{
 
-        (this.illumination && this.shapeForIllumination.stage) ?  removeFromStage(this.shapeForIllumination):
+        (!this._illumination && this.shapeForIllumination.stage) ?  removeFromStage(this.shapeForIllumination):
                 addToStage(this.shapeForIllumination, 0, 0, 600, 372);
 
-        this.illumination = !this.illumination;
+        this._illumination = !this._illumination;
 
     }
 
+    public function get illumination():Boolean {
+        return _illumination;
+    }
 }
 }
