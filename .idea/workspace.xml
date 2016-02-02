@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b700d8-fa01-4b7c-baa9-cb77c8f8ee2e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Animations/RoomEscape.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cuadro21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/estantelibros.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Thumbs.db" afterPath="$PROJECT_DIR$/img/Thumbs.db" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RoomEscape.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RoomEscape.swf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Dummy.as" afterPath="$PROJECT_DIR$/src/Dummy.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Level4.as" afterPath="$PROJECT_DIR$/src/Level4.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.as" afterPath="$PROJECT_DIR$/src/Main.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SafeLock.as" afterPath="$PROJECT_DIR$/src/SafeLock.as" />
     </list>
     <ignored path="RoomEscape.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,54 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Item.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Item.as">
+      <file leaf-file-name="SafeLock.as" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SafeLock.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="12" selection-start-line="27" selection-start-column="0" selection-end-line="36" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Switch.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Switch.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!block;n#makeInventory#0;n#Main#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#getInventory#0;n#Main#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Level4.as" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Level4.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.608931">
-              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dummy.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dummy.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.2300406">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,7 +63,6 @@
         <option value="$PROJECT_DIR$/src/Level8.as" />
         <option value="$PROJECT_DIR$/src/Level7.as" />
         <option value="$PROJECT_DIR$/src/PictureButton.as" />
-        <option value="$PROJECT_DIR$/src/SafeLock.as" />
         <option value="$PROJECT_DIR$/src/Switch.as" />
         <option value="$PROJECT_DIR$/src/ButtonStage.as" />
         <option value="$PROJECT_DIR$/src/Pickaxe.as" />
@@ -125,6 +77,7 @@
         <option value="$PROJECT_DIR$/src/Main.as" />
         <option value="$PROJECT_DIR$/src/Dummy.as" />
         <option value="$PROJECT_DIR$/src/Level4.as" />
+        <option value="$PROJECT_DIR$/src/SafeLock.as" />
       </list>
     </option>
   </component>
@@ -681,12 +634,12 @@
       <updated>1454029196884</updated>
       <workItem from="1454029200861" duration="9824000" />
       <workItem from="1454200522486" duration="9181000" />
-      <workItem from="1454363230744" duration="2879000" />
+      <workItem from="1454363230744" duration="8098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23677000" />
+    <option name="totallyTimeSpent" value="28896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -844,14 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SafeLock.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Screwdriver.as">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -983,18 +928,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Level4.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.608931">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Dummy.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.39106902">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Level4.as">
+    <entry file="file://$PROJECT_DIR$/src/SafeLock.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.608931">
-          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.2300406">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
