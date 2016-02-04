@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b700d8-fa01-4b7c-baa9-cb77c8f8ee2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SafePaper.as" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scape.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RoomEscape.fla" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Thumbs.db" afterPath="$PROJECT_DIR$/img/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/onStage/Thumbs.db" afterPath="$PROJECT_DIR$/img/onStage/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crack.as" afterPath="$PROJECT_DIR$/src/Crack.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inventory.as" afterPath="$PROJECT_DIR$/src/Inventory.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Item.as" afterPath="$PROJECT_DIR$/src/Item.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Level1.as" afterPath="$PROJECT_DIR$/src/Level1.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.as" afterPath="$PROJECT_DIR$/src/Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pickaxe.as" afterPath="$PROJECT_DIR$/src/Pickaxe.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PicturePaper.as" afterPath="$PROJECT_DIR$/src/PicturePaper.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SafeLock.as" afterPath="$PROJECT_DIR$/src/SafeLock.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Screw.as" afterPath="$PROJECT_DIR$/src/Screw.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Screwdriver.as" afterPath="$PROJECT_DIR$/src/Screwdriver.as" />
     </list>
     <ignored path="RoomEscape.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -714,15 +705,15 @@
       <updated>1454029196884</updated>
       <workItem from="1454029200861" duration="9824000" />
       <workItem from="1454200522486" duration="9181000" />
-      <workItem from="1454363230744" duration="22078000" />
+      <workItem from="1454363230744" duration="22671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42876000" />
+    <option name="totallyTimeSpent" value="43469000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
