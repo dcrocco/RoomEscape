@@ -146,7 +146,7 @@ public class Main extends MovieClip {
     public function changeIllumination():void{
 
         (!this._illumination && this.shapeForIllumination.stage) ?  removeFromStage(this.shapeForIllumination):
-                addToStage(this.shapeForIllumination, 0, 0, 600, 372);
+                addToStage(this.shapeForIllumination, 0, 0, 600, 322);
 
         this._illumination = !this._illumination;
 

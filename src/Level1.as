@@ -9,8 +9,14 @@
 		private var switchButton:Switch;
 		private var buttonStage1to2:ButtonStage;
 		private var buttonStage1to4:ButtonStage;
+//		private var s1:SafePaper;
+//		private var s2:SafePaper;
+//		private var s3:SafePaper;
 		
 		public function Level1(){
+//			this.s1 = new SafePaper();
+//			this.s2 = new SafePaper();
+//			this.s3 = new SafePaper();
             this.pickaxe = new Pickaxe();
 			this.screwdriver = new Screwdriver();
 			this.buttonStage1to2 = new ButtonStage();
@@ -24,11 +30,19 @@
             Main.instance.addToStage(this.switchButton, 230.45, 151.75);
             Main.instance.addItemToClean(this.switchButton);
 
+
             if (!this.screwdriver.inInventory) Main.instance.addToStage(this.screwdriver, 293.55, 64.30);
             if (!this.pickaxe.inInventory) Main.instance.addToStage(this.pickaxe, 68, 115, 37.50, 75);
+//			if (!this.s1.inInventory) Main.instance.addToStage(this.s1, 40, 150);
+//			if (!this.s2.inInventory) Main.instance.addToStage(this.s2, 120, 150);
+//			if (!this.s3.inInventory) Main.instance.addToStage(this.s3, 420, 150);
 
             Main.instance.addItemToClean(this.pickaxe);
             Main.instance.addItemToClean(this.screwdriver);
+//			Main.instance.addItemToClean(this.s1);
+//			Main.instance.addItemToClean(this.s2);
+//			Main.instance.addItemToClean(this.s3);
+
             this.loadButtons();
 		}
 		

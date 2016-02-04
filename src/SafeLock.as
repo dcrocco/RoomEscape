@@ -64,7 +64,7 @@ public class SafeLock extends StageItem {
     //Click handler for the lock.
     private function handleClick(event:Event):void{
 
-        if (isLocked){
+        if (this.isLocked){
 
             //If Mouse is clicking the stageItem
             if(this.hitTestPoint(stage.mouseX ,stage.mouseY, true)){
